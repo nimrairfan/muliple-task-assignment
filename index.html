@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header" id="cont1">
+        <h1>Hello Sir...!
+            <br> javaScript Assignment
+        </h1>
+        <br>
+        <button class="btncolor" onclick="changeBG()">Background Color Change</button>
+        <button class="btncolor" onclick="changeText()">Text Color Change</button>
+    </div>
+
+
+
+
+
+    <div class="imgcon">
+
+        <img id="myImage" class="image" src="./images/img1.jpeg" width="200" alt="">
+        <div>
+            <button class="btns" id="btn1" onclick="myImg1(this)">Show Image</button>
+            <button class="btns" onclick="myImg2()">Big Image</button>
+            <button class="btns" onclick="myImg3()">Small Image</button>
+            <button class="btns" onclick="myImg4()">Hide Image</button>
+        </div>
+    </div>
+
+    <div class="bulbcon">
+        <img src="./images/bulboff.jpeg" alt="" onmouseover="bulbtoggle(1,this)" onmouseout="bulbtoggle(0,this)">
+    </div>
+
+    <div class="allpara">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quam officiis placeat quas nam, obcaecati
+            perspiciatis corrupti eligendi consectetur iure tempora possimus beatae nobis ullam rem repellendus veniam
+            asperiores at!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quam officiis placeat quas nam, obcaecati
+            perspiciatis corrupti eligendi consectetur iure tempora possimus beatae nobis ullam rem repellendus veniam
+            asperiores at!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quam officiis placeat quas nam, obcaecati
+            perspiciatis corrupti eligendi consectetur iure tempora possimus beatae nobis ullam rem repellendus veniam
+            asperiores at!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quam officiis placeat quas nam, obcaecati
+            perspiciatis corrupti eligendi consectetur iure tempora possimus beatae nobis ullam rem repellendus veniam
+            asperiores at!</p>
+        <button class="btncolor" onclick="changecolor()">Change Paragraph Color</button>
+
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>

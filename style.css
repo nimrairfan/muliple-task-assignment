@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.btncolor{
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px 15px;
+    border-radius: 5px;
+
+}
+.btncolor:hover{
+    background-color: gray;
+    color: white;
+}
+.imgcon{
+    background-color: black;
+    /* min-height: 100%; */
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.btns{
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: black;
+    margin: 5px 15px;
+    padding: 10px;
+    cursor: pointer;
+    color: gray;
+    width: 100px;
+}
+.btns:hover{
+    color: white;
+    background-color: gray;
+}
+.myImg2{
+    width: 400px;
+}
+/* .image{
+    display: none;
+} */
+
+.bulbcon{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bulbcon img{
+    cursor: pointer;
+}
+.allpara{
+    text-align: center
+}
+.allpara p{
+    line-height: 36px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
